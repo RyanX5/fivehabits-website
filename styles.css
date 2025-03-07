@@ -33,6 +33,17 @@ a {
     border-radius: 40px;
     font-size: 1rem;
     font-weight: bold;
+    box-shadow: 0 0 25px #E2FF41;
+    transition: 0.3s;
+    transition-property: box-shadow;
+}
+
+a:hover {
+    box-shadow:
+        0 0 5px #E2FF41,
+        0 0 15px #E2FF41,
+        0 0 60px #E2FF41,
+        0 0 150px #E2FF41;
 }
 
 img {
