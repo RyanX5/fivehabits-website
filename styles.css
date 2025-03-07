@@ -1,0 +1,74 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(94, 65, 255);
+    background: radial-gradient(circle, rgba(94, 65, 255, 0.800453514739229) 0%, rgba(94, 65, 255, 1) 100%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    /* Required for absolute positioning of the footer */
+    min-height: 100vh;
+    /* Ensure the body takes at least the full height of the viewport */
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    padding-top: 20px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+p {
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+a {
+    display: inline-block;
+    background-color: #E2FF41;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    display: block;
+    height: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
